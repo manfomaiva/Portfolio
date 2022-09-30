@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,700;0,800;0,900;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section>
+        <div class="main">
+            <header>
+                <nav>
+                    <h2 class="logo">Portfolio</h2>
+                    <input type="checkbox" id="tah">
+                    <label for="tah" class="menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul class="menus">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#content">Skills</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <label for="tah" class="menu-btn2">
+                            <i class="fa-solid fa-times"></i>
+                        </label>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="photo">
+                <img src="./images/girl (2).png">
+            </div>
+
+            <div class="content">
+                <h1>Manfo Maiva</h1>
+                <h3>Front-End Web Developer</h3>
+                <p>I am a font-end web developer.I can provide clean code, <br> I make the wesite more interactive
+                    with uers.And make your <br> wesite easily accessible to all devices.
+                </p>
+                <button type="button">Hire Me</button>
+            </div>
+
+            <div class="media">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr class="line_separate">
+
+    <!-- SKILL SECTION -->
+    <section class="skillsection" id="content">
+        <h2>Skills</h2>
+        <h3>Languages and Frameworks i know</h3>
+        <div class="skill">
+            <div class="subject">HTML</div>
+            <div class="progress_bar">
+                <div class="progress_line" value="84%" style="max-width: 84%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="subject">CSS</div>
+            <div class="progress_bar">
+                <div class="progress_line" value="75%" style="max-width: 75%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="subject">BOOTSTRAP</div>
+            <div class="progress_bar">
+                <div class="progress_line" value="78%" style="max-width: 78%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="subject">LARAVEL</div>
+            <div class="progress_bar">
+                <div class="progress_line" value="58%" style="max-width: 58%;"></div>
+            </div>
+        </div>
+    </section>
+    <hr class="line">
+    <!-- END OF SKILL SECTION -->
+
+    <!-- START OF PROJECT SECTION -->
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="./images/registration.PNG" alt="registration">
+                <p>Registration Form</p>
+            </div>
+            <div class="project">
+                <img src="./images/Capture.PNG" alt="cal">
+                <p>HTML/CSS Calculator</p>
+            </div><div class="project">
+                <img src="./images/project_template.PNG" alt="template">
+                <p>Icademy Template</p>
+            </div> 
+            <div class="project">
+                <img src="./images/login.PNG" alt="login">
+                <p>Login Form</p>
+            </div>
+            <div class="project">
+                <img src="./images/application.PNG" alt="application">
+                <p>Application Form</p>
+            </div>
+            <div class="project">
+                <img src="./images/calculator.PNG" alt="calculator">
+                <p>HTML/CSS Calcucator</p>
+            </div>    
+    </div>
+    </section>
+    <hr class="line">
+    <!-- CONTACT SECTION -->
+    <section id='contact'>
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="parr">
+             <h3>Let's Collaborate !</h3>
+            </div>
+            
+            <div class="form">
+                <div class="name">
+                    <input type="text" class='first-name' placeholder='first Name' required> <br> 
+                    <input type="text" class="last-name" placeholder="last-name" required>
+                </div>
+                <input type="email" class='email' placeholder='Email' required>
+                <textarea class="message" placeholder="message" required cols="5" rows="6"></textarea>
+                <button class="btn-contact">Contact</button>
+            </div>
+        </div>
+        <div class="contactinfo">
+            <div class="info">
+                <p class="text">+237 650 423 184</p>
+            </div>
+            
+            <div class="info">
+                <p class="text">maivamanfo34@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <div class="copyright">
+        &copy; 2022 M.Manfo
+    </div>
+</footer>
+</html>
