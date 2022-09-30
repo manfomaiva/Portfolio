@@ -391,7 +391,7 @@ button:hover{
         position: absolute;
         content: attr(value);
         top: -35px;
-        right: 2rem;
+        right: 1px;
         transform: translateX(-50%);
         color: #262728;
         font-size: 17px;
