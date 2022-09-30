@@ -461,13 +461,13 @@ button:hover{
     color: #fff;
     height: 35vh;
     margin-top:-90px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contact h2{
     font-size: 65px;
     color: #fff;
     line-height: 90px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 13vh;
     text-align: center;
     position: relative;
@@ -510,6 +510,7 @@ button:hover{
     text-align: center;
     font-size: 18px;
     color: #fff;
+    margin-top: -4vh;
 }
 @media(max-width:868px){
     .contactinfo{
