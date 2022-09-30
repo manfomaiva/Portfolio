@@ -226,7 +226,6 @@ button:hover{
         margin-bottom: 25px;
         margin-top: 7vh;
         overflow: hidden;
-        margin-left: 1rem;
     }
     .content h3{
         color: #00bf9f;
@@ -387,6 +386,15 @@ button:hover{
     .skill{
         width: 60%;
         margin-left: 20vw;
+    }
+    .progress_line::after{
+        position: absolute;
+        content: attr(value);
+        top: -35px;
+        right: -8px;
+        transform: translateX(-50%);
+        color: #262728;
+        font-size: 17px;
     }
 }
 
