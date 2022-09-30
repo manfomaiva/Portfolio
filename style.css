@@ -86,7 +86,7 @@ nav ul li a:hover{
     }
     .menu-btn,.menu-btn2::after{
         position: fixed;
-        margin-left: 14rem;
+        margin-left: 16rem;
         color: rgba(8, 5, 0, 0.9);
         padding: 2px;
     }
