@@ -484,6 +484,10 @@ button:hover{
    
 }
 @media(max-width:868px){
+    .contact{
+        height: 35vh;
+        margin-top: -5vh;
+    }
     .contact h2{
         font-size: 65px;
         color: #fff;
