@@ -220,7 +220,7 @@ button:hover{
     }
     .content h1{
         text-align: left;
-        font-size: 42px;
+        font-size: 43px;
         color: #262728;
         line-height: 6rem;
         margin-bottom: 25px;
@@ -485,7 +485,7 @@ button:hover{
 }
 @media(max-width:868px){
     .contact{
-        height: 35vh;
+        height: 45vh;
         margin-top: 6vh;
     }
     .contact h2{
