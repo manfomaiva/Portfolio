@@ -220,7 +220,7 @@ button:hover{
     }
     .content h1{
         text-align: left;
-        font-size: 55px;
+        font-size: 42px;
         color: #262728;
         line-height: 6rem;
         margin-bottom: 25px;
@@ -505,7 +505,7 @@ button:hover{
 @media(max-width:868px){
     .contactinfo{
         margin-left: 4vw;
-        margin-top: 2vh;
+        margin-top: 2rem;
         transition: 0.3s ease;
     }
 /* FOOTER */
