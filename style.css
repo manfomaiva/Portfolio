@@ -220,7 +220,7 @@ button:hover{
     }
     .content h1{
         text-align: left;
-        font-size: 58px;
+        font-size: 55px;
         color: #262728;
         line-height: 6rem;
         margin-bottom: 25px;
@@ -392,7 +392,7 @@ button:hover{
         content: attr(value);
         top: -35px;
         right: 1px;
-        transform: translateX(-50%);
+        transform: translateX(-45%);
         color: #262728;
         font-size: 17px;
     }
