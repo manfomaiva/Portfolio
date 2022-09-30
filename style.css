@@ -86,7 +86,7 @@ nav ul li a:hover{
     }
     .menu-btn,.menu-btn2::after{
         position: fixed;
-        margin-left: 17rem;
+        margin-left: 14rem;
         color: rgba(8, 5, 0, 0.9);
         padding: 2px;
     }
@@ -226,6 +226,7 @@ button:hover{
         margin-bottom: 25px;
         margin-top: 7vh;
         overflow: hidden;
+        margin-left: 1rem;
     }
     .content h3{
         color: #00bf9f;
@@ -360,6 +361,7 @@ button:hover{
     .skillsection{
         grid-template-columns: 1fr;
         grid-gap: 20px;
+        width: 100%;
     } 
     .skillsection h2{
         font-size: 65px;
@@ -452,18 +454,14 @@ button:hover{
 }
 
 /* CONTACT INFO */
-#contact{
-    background-image: rgba(8, 5, 0, 0.9);
-    margin-top: -14vh;
-}
 .contact{
     background: rgba(8, 5, 0, 0.9);
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
     color: #fff;
-    height: 130vh;
-    margin-top:-10px;
-    margin-bottom: -20px;
+    height: 50vh;
+    margin-top:-90px;
+    margin-bottom: 20px;
 }
 .contact h2{
     font-size: 65px;
@@ -484,62 +482,6 @@ button:hover{
     font-weight: bold;
     cursor: pointer;
     color: #fff;
-}
-.form{
-    width: 50%;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    position: relative;
-    left: 50px;
-    margin-left: -3vw;
-}
-.form input, .message{
-    width: 77%;
-    display: block;
-    height: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    background: transparent;
-    color: #fff;
-    border: 1px solid rgba(8, 5, 0, 0.9);
-    outline: none;
-    margin: 30px 0;
-    text-transform: capitalize;
-    resize: none;
-    font-size: 14px;
-}
-.message{
-    height: 200px;
-    width: 78%;
-}
-.form .name {
-    display: flex;
-    width: 120%;
-}
-.form .last-name{
-    margin-left: 40px;
-}
-.name input{
-    width: 30%;
-    margin: 0px;
-}
-
-.form .btn-contact{
-    margin-left: 20%;
-    padding: 15px 20px;
-    text-decoration: none;
-    border-radius: 50px;
-    background: rgba(8, 5, 0, 0.9);
-    color: #fff;
-    text-transform: capitalize;
-    border: 1px solid rgba(8, 5, 0, 0.9);
-    font-weight: bold;
-    margin-bottom: -20px;
-}
-.form .btn-contact:hover{
-    background-color: transparent;
-    color: #fff;
-    transition: .4s;
 }
 @media(max-width:868px){
     .contact h2{
@@ -565,32 +507,31 @@ button:hover{
 /* CONTACT INFO */
 .contactinfo{
     display: block;
-    text-align: left;
-    margin-top: -85vh;
-    margin-left: 55vw;
+    text-align: center;
     font-size: 18px;
     color: #fff;
 }
 @media(max-width:868px){
     .contactinfo{
-        margin-left: 14vw;
-        margin-top: -14vh;
+        margin-left: 4vw;
+        margin-top: 2vh;
         transition: 0.3s ease;
     }
-}
 /* FOOTER */
 .copyright{
     width: 100%;
-    height: 6vh;
+    height: 7vh;
     background: #fff;
-    margin-top: 26rem;
+    margin-top: 2px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     color: #262728;
+    margin-left: 60px;
 }
 @media(max-width:868px){
     .copyright{
-        margin-top: 7vh;
+        margin-left: 10px;
     }
+}
 }
